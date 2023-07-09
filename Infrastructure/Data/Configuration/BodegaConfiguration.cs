@@ -19,7 +19,7 @@ public class BodegaConfiguration : IEntityTypeConfiguration<Bodega>
         .IsRequired()
         .HasMaxLength(50);
 
-        builder.HasOne(p=> User)
+        builder.HasOne(p=> p.User)
         .WithMany(p => p.Bodegas)
         .HasForeignKey(p => p.IdBodega);
     }

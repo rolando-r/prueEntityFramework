@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Core.Entities;
 public class Historial
 {
+    [Key]
     public int IdHistorial { get; set; }
     public int Cantidad { get; set; }
     public int IdBodegaOrigen { get; set; }

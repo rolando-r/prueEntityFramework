@@ -19,7 +19,7 @@ public class ProductoConfiguration : IEntityTypeConfiguration<Producto>
         .IsRequired()
         .HasMaxLength(50);
 
-        builder.HasOne(p=> User)
+        builder.HasOne(p => p.User)
         .WithMany(p => p.Productos)
         .HasForeignKey(p => p.IdProducto);
     }

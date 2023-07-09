@@ -17,18 +17,18 @@ public class HistorialConfiguration : IEntityTypeConfiguration<Historial>
 
         builder.Property(p => p.IdHistorial)
         .IsRequired()
-        .HasMaxLength();
+        .HasMaxLength(50);
 
-        builder.HasOne(p => User)
+        builder.HasOne(p => p.User)
         .WithMany(p => p.Historiales)
         .HasForeignKey(p => p.IdHistorial);
 
-        builder.HasOne(p => Inventario)
-        .WithMany(p => p.Historiales)
-        .HasForeignKey(p => p.IdHistorial);
+        builder.HasOne(p => p.Inventario)
+        /* .WithMany(p => p.Historiales)
+        .HasForeignKey(p => p.IdHistorial) */;
 
-        builder.HasOne(p => Bodega)
-        .WithMany(p => p.Historiales)
-        .HasForeignKey(p => p.IdHistorial);
+        builder.HasOne(p => p.Bodega)
+        /* .WithMany(p => p.Historiales)
+        .HasForeignKey(p => p.IdHistorial) */;
     }
 }

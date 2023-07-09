@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Core.Entities;
 public class Inventario
 {   
+    [Key]
     public int IdInventario { get; set; }
     public int IdBodega { get; set; }
     public int IdProducto { get; set; }
@@ -16,4 +17,5 @@ public class Inventario
     public User User {get; set;}
     public Producto Producto { get; set; }
     public Bodega Bodega { get; set; }
+    public object Historiales { get; set; }
 }

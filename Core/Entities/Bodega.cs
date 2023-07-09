@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Core.Entities;
 public class Bodega
 {
+    [Key]
     public int IdBodega { get; set; }
     public string ? NameBodega { get; set; }
     public int IdResponsable { get; set; }
@@ -13,4 +14,6 @@ public class Bodega
     public DateTime UpdatedAt { get; set; }
     public DateTime DeleteAt { get; set; }
     public User User { get; set; }
+    public object Inventario { get; set; }
+    public object Inventarios { get; set; }
 }

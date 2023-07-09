@@ -19,16 +19,16 @@ public class InventarioConfiguration : IEntityTypeConfiguration<Inventario>
         .IsRequired()
         .HasMaxLength(50);
 
-        builder.HasOne(p=> User)
+        builder.HasOne(p=> p.User)
         .WithMany(p => p.Inventarios)
         .HasForeignKey(p => p.IdInventario);
 
-        builder.HasOne(p=> Producto)
+        builder.HasOne(p=> p.Producto)
         .WithMany(p => p.Inventarios)
         .HasForeignKey(p => p.IdInventario);
 
-        builder.HasOne(p=> Bodega)
-        .WithMany(p => p.Inventarios)
-        .HasForeignKey(p => p.IdInventario);
+        builder.HasOne(p=> p.Bodega)
+        /* .WithMany(p => p.Inventarios)
+        .HasForeignKey(p => p.IdInventario) */;
     }
 }
