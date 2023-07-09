@@ -1,31 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/home/apolm01-021/Desktop/netCore/pruebaEntityFramework/API/API.csproj": {}
+    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\API\\API.csproj": {}
   },
   "projects": {
-    "/home/apolm01-021/Desktop/netCore/pruebaEntityFramework/API/API.csproj": {
+    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apolm01-021/Desktop/netCore/pruebaEntityFramework/API/API.csproj",
+        "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "/home/apolm01-021/Desktop/netCore/pruebaEntityFramework/API/API.csproj",
-        "packagesPath": "/home/apolm01-021/.nuget/packages/",
-        "outputPath": "/home/apolm01-021/Desktop/netCore/pruebaEntityFramework/API/obj/",
+        "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apolm01-021/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -39,6 +44,12 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.8, )"
             },
@@ -66,7 +77,127 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.108/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\CSharp\\prueEntityFramework\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
