@@ -3,7 +3,6 @@ using System.ComponentModel.DataAnnotations;
 namespace Core.Entities;
 public class Inventario
 {   
-    [Key]
     public int IdInventario { get; set; }
     public int IdBodega { get; set; }
     public int IdProducto { get; set; }

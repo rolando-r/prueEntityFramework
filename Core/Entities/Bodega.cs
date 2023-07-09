@@ -3,7 +3,6 @@ using System.ComponentModel.DataAnnotations;
 namespace Core.Entities;
 public class Bodega
 {
-    [Key]
     public int IdBodega { get; set; }
     public string ? NameBodega { get; set; }
     public int IdResponsable { get; set; }
